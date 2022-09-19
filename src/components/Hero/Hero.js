@@ -8,7 +8,7 @@ import Button from '../Button/Button';
 
 const Hero = ({signRef}) => {
   const scrollTo = (ref) => {
-    ref.current.scrollIntoView({block: 'center', behavior: 'smooth'});
+    ref.current.scrollIntoView({block: 'start', behavior: 'smooth'});
   };
 
   return (

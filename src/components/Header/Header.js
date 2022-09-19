@@ -5,7 +5,7 @@ import logo from '../../images/logo.png';
 
 const Header = ({usersRef, signRef}) => {
   const scrollTo = (ref) => {
-    ref.current.scrollIntoView({block: 'center', behavior: 'smooth'});
+    ref.current.scrollIntoView({block: 'start', behavior: 'smooth'});
   };
 
   return (
