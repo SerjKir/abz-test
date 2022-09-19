@@ -1,0 +1,16 @@
+$yellow: #F4E041;
+$blue: #00BDD3;
+$lightGray: #F8F8F8;
+$black: rgba(0, 0, 0, 0.87);
+$white: rgba(255, 255, 255, 0.87);
+$gray: #7E7E7E;
+
+@mixin for-laptop {
+  @media (max-width: 1024px) { @content; }
+}
+@mixin for-tablet {
+  @media (max-width: 768px) { @content; }
+}
+@mixin for-phone {
+  @media (max-width: 500px) { @content; }
+}

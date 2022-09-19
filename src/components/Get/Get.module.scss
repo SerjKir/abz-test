@@ -1,0 +1,27 @@
+@import "../../helpers/vars";
+
+.main {
+  max-width: 100%;
+}
+
+.users {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 29px;
+  margin-top: 50px;
+  @include for-tablet {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+  @include for-phone {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

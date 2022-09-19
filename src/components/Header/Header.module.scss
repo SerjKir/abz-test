@@ -1,0 +1,17 @@
+@import "../../helpers/vars";
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+
+  @media (max-width: 350px) {
+    margin: 0 -16px;
+  }
+}
+
+.buttons {
+  display: flex;
+  column-gap: 10px;
+}

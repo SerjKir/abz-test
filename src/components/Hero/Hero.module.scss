@@ -1,0 +1,32 @@
+@import "../../helpers/vars";
+
+.main {
+  padding: 164px 0;
+  background-size: cover;
+  @include for-tablet {
+    padding: 89px 32px;
+  }
+  @include for-phone {
+    padding: 40px 16px;
+  }
+}
+
+.box {
+  margin: 0 auto;
+  max-width: 380px;
+}
+
+.text {
+  margin-top: 21px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn {
+  margin: 32px auto 0;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+@import "../../helpers/vars";
+
+.main {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  @include for-laptop {
+    padding: 0 60px;
+  }
+  @include for-tablet {
+    padding: 0 32px;
+  }
+  @include for-phone {
+    padding: 0 16px;
+  }
+}
+
+.fullWidth {
+  padding: 0;
+}

@@ -1,0 +1,51 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  max-width: 380px;
+}
+
+div.input {
+  margin-top: 50px;
+}
+
+div.radios {
+  margin-top: 43px;
+  margin-bottom: 4px;
+}
+
+.radio {
+  margin-top: 7px;
+  height: 26px;
+}
+
+.btn {
+  margin-top: 50px;
+}
+
+.img {
+  margin-top: 50px;
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+  p {
+    margin: 3px 14px 0 14px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #7E7E7E;
+  }
+}
